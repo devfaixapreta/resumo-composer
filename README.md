@@ -27,11 +27,11 @@ $ composer init
 $ composer require <devfaixapreta/packages> "vazio, branch ou versao"
 ```
 
-composer.json
+exemplo composer.json
 ```
 {
     "require": {
-    "devfaixapreta/<repositorio": "*, versao ou branch"
+    "devfaixapreta/package": "*, versao ou branch"
     }
 }
 ```
@@ -39,17 +39,18 @@ composer.json
 * Adicionar um endereço de repositorio de dependencias
 Podendo assim adicionar um repositorio github como dependencia no projeto
 *obs:. O repositório para servir como pacote, precisa ter um composer.json com "name"
-composer.json
+
+exemplo composer.json
 ```
 "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/devfaixapreta/<repositorio>"
+            "url": "https://github.com/devfaixapreta/package"
         }
     ],
 
     "require": {
-        "devfaixapreta/<repositorio>": "*, versao, ou branch"
+        "devfaixapreta/package": "*, versao, ou branch"
     }
 ```
 
