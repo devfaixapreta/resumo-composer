@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bff485dbf352b3ae11f2c172f2d10cc7",
+    "packages": [
+        {
+            "name": "devfaixapreta/packages",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devfaixapreta/packages.git",
+                "reference": "3793b581bac26ed88959639f5e8cf13ff1d6639f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devfaixapreta/packages/zipball/3793b581bac26ed88959639f5e8cf13ff1d6639f",
+                "reference": "3793b581bac26ed88959639f5e8cf13ff1d6639f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Devfaixapreta\\Packages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dev Faixa Preta",
+                    "email": "devfaixapreta@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/devfaixapreta/packages/issues",
+                "source": "https://github.com/devfaixapreta/packages/tree/main"
+            },
+            "time": "2021-11-05T04:32:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "devfaixapreta/packages": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
