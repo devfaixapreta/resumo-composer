@@ -16,11 +16,11 @@
     "repositories": [
         {
             "type": "git",
-            "url": "github.com/jquery/jquery.git"
+            "url": "https://github.com/devfaixapreta/package"
         }
     ],
 
     "require": {
-        "jquery": "*"
+        "devfaixapreta/package": "*"
     }
 }
