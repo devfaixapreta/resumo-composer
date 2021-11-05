@@ -1,0 +1,19 @@
+{
+    "name": "devfaixapreta/resumo-composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devfaixapreta\\ResumoComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dev Faixa Preta",
+            "email": "devfaixapreta@gmail.com"
+        }
+    ],
+    "require": {
+        "devfaixapreta/packages": "dev-main"
+    }
+}
