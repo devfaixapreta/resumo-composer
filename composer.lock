@@ -4,30 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bff485dbf352b3ae11f2c172f2d10cc7",
+    "content-hash": "d7f998e1e2a1b04417d08799544e730d",
     "packages": [
         {
-            "name": "devfaixapreta/packages",
-            "version": "dev-main",
+            "name": "devfaixapreta/pekascss",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/devfaixapreta/packages.git",
-                "reference": "3793b581bac26ed88959639f5e8cf13ff1d6639f"
+                "url": "https://github.com/devfaixapreta/pekascss",
+                "reference": "fed913c24cbaed59611c60adef9bd9691c0bed21"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/devfaixapreta/packages/zipball/3793b581bac26ed88959639f5e8cf13ff1d6639f",
-                "reference": "3793b581bac26ed88959639f5e8cf13ff1d6639f",
-                "shasum": ""
-            },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Devfaixapreta\\Packages\\": "src/"
+                    "Devfaixapreta\\Pekascss\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -37,19 +29,13 @@
                     "email": "devfaixapreta@gmail.com"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/devfaixapreta/packages/issues",
-                "source": "https://github.com/devfaixapreta/packages/tree/main"
-            },
-            "time": "2021-11-05T04:32:02+00:00"
+            "time": "2021-11-05T05:38:40+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "devfaixapreta/packages": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
