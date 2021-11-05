@@ -12,7 +12,14 @@
             "name": "Dev Faixa Preta",
             "email": "devfaixapreta@gmail.com"
         }
+    ], 
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/devfaixapreta/packages"
+        }
     ],
+
     "require": {
         "devfaixapreta/packages": "dev-main"
     }
