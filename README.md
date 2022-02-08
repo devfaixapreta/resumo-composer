@@ -60,6 +60,18 @@ exemplo composer.json
 $ composer install
 ```
 
+## update
+* Atualiza os paoctes em relação ao seu composer.json. O composer.lock será atualizado.
+```
+$ composer update
+```
+
+## require {pacote}
+* Atualiza ou instala a versão do pacote mais recente. O composer.lock e o composer.json serão atualizados.
+```
+$ composer require {nomedopacote}
+```
+
 ## --version
 * Mostra a versão do composer instalada
 ```
