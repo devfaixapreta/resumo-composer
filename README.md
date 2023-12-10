@@ -84,5 +84,12 @@ $ composer --version
 $ composer self-update
 ```
 
+## self-update --rollback
+* Retorna para a versão anterior
+```
+$ composer self-update --rollback
+```
+```
+
 
 
