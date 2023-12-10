@@ -58,6 +58,7 @@ exemplo composer.json
 ```
 $ composer dump
 ```
+# Instalando e Atualizando Composer
 
 ## install
 * Instala os pacotes do arquivo composer.json
