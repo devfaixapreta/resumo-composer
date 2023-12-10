@@ -95,7 +95,6 @@ $ composer self-update
 ```
 $ composer self-update --rollback
 ```
-```
 
 
 
