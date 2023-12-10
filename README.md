@@ -53,6 +53,11 @@ exemplo composer.json
         "devfaixapreta/package": "*, versao, ou branch"
     }
 ```
+## dump
+* Atualiza o arquivo autoload.php
+```
+$ composer dump
+```
 
 ## install
 * Instala os pacotes do arquivo composer.json
