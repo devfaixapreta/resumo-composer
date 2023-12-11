@@ -78,6 +78,12 @@ $ composer update
 $ composer require {nomedopacote}
 ```
 
+## remove {pacote}
+* Desinstala um pacote.
+```
+$ composer remove {pacote}
+```
+
 ## --version
 * Mostra a versão do composer instalada
 ```
