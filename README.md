@@ -2,7 +2,7 @@
 
 ## Instalação do Composer
 * [Link download Composer](https://getcomposer.org/download/)
-* [Link Documentação]([https://getcomposer.org/download/](https://composer.docs.adielcristo.com/docs/composer/doc/1.9/introducao))
+* [Link Documentação](https://composer.docs.adielcristo.com/docs/composer/doc/1.9/introducao)
 
 
 # Criando um pacote para composer
