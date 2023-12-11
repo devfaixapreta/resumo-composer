@@ -2,6 +2,7 @@
 
 ## Instalação do Composer
 * [Link download Composer](https://getcomposer.org/download/)
+* [Link Documentação]([https://getcomposer.org/download/](https://composer.docs.adielcristo.com/docs/composer/doc/1.9/introducao))
 
 
 # Criando um pacote para composer
@@ -56,7 +57,7 @@ exemplo composer.json
 ## dump
 * Atualiza o arquivo autoload.php
 ```
-$ composer dump
+$ composer dump-autoload
 ```
 # Instalando e Atualizando Composer
 
@@ -78,8 +79,8 @@ $ composer update
 $ composer require {nomedopacote}
 ```
 
-## remove {pacote}
-* Desinstala um pacote.
+## remove {pacote} 
+* Remove o pacode do arquivo composer.json presente no diretório atual.
 ```
 $ composer remove {pacote}
 ```
