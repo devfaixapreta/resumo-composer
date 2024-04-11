@@ -23,7 +23,7 @@ $ composer init
 ``` 
 
 ## require
-* Adicionar uma dependência ao projeto
+* Adicionar um pacote ao projeto
 ```
 $ composer require <devfaixapreta/packages> "vazio, branch ou versao"
 ```
@@ -35,6 +35,25 @@ exemplo composer.json
     "devfaixapreta/package": "*, versao ou branch"
     }
 }
+```
+### require com a flag **--dev**
+* Adicionar um pacote como dependência de **desenvolvimento** ao projeto
+```
+$ composer require <devfaixapreta/packages> "vazio, branch ou versao" --dev
+```
+
+exemplo composer.json
+```
+{
+    "require-dev": {
+    "devfaixapreta/package": "*, versao ou branch"
+    }
+}
+```
+
+* Listar todas as dependências de desenvolvimento instaladas. 
+```
+$ composer show --dev
 ```
 
 * Adicionar um endereço de repositorio de dependencias
@@ -84,6 +103,17 @@ $ composer require {nomedopacote}
 ```
 $ composer remove {pacote}
 ```
+
+* Remove o pacode do ambiente de desenvolvimento.
+```
+$ composer remove {pacote} --dev
+```
+### Opções:
+
+--dev: Remove a biblioteca apenas do ambiente de desenvolvimento.
+--no-update: Evita que o Composer atualize o composer.json e o composer.lock.
+--no-autoloader: Impede que o Composer atualize o autoloader.
+
 
 ## --version
 * Mostra a versão do composer instalada
