@@ -97,14 +97,19 @@ $ composer update
 ```
 $ composer require {nomedopacote}
 ```
+### require {pacote} --dev
+* Atualiza ou instala a versão do pacote no ambiente de desenvolvimento.
+```
+$ composer require {nomedopacote} --dev
+```
 
 ## remove {pacote} 
-* Remove o pacode do arquivo composer.json presente no diretório atual.
+* Remove o pacote do arquivo composer.json presente no diretório atual.
 ```
 $ composer remove {pacote}
 ```
-
-* Remove o pacode do ambiente de desenvolvimento.
+### remove {pacote} --dev
+* Remove o pacote do ambiente de desenvolvimento.
 ```
 $ composer remove {pacote} --dev
 ```
