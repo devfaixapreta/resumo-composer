@@ -110,9 +110,9 @@ $ composer remove {pacote} --dev
 ```
 ### Opções:
 
---dev: Remove a biblioteca apenas do ambiente de desenvolvimento.  
---no-update: Evita que o Composer atualize o composer.json e o composer.lock.  
---no-autoloader: Impede que o Composer atualize o autoloader.
+**--dev**: Remove a biblioteca apenas do ambiente de desenvolvimento.  
+**--no-update**: Evita que o Composer atualize o composer.json e o composer.lock.  
+**--no-autoloader**: Impede que o Composer atualize o autoloader.
 
 
 ## --version
